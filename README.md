@@ -24,9 +24,11 @@ If you would like to run the server as part of you **npm** scripts configuration
 
 ```json
 {
-  "scripts":
+  /* other entries */
+  "scripts": {
     /* other entries */
     "fake-web-socket-server": "fake-web-socket-server"
+  }
 }
 ```
 
