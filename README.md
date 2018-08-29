@@ -83,12 +83,32 @@ Option(s):
 
 - delay - the delay (in milliseconds) before sending the echoed payload from the server
 
+Code Example:
+
+```javascript
+webSocket.send(JSON.stringify({
+  type:'echo',
+  payload: 'test',
+  delay: 1000, // delay 1 second (1000 milliseconds)
+}));
+```
+
 ### Counter Type
 
 Option(s):
 
 - interval - the interval (in milliseconds) between each number sent from the server
 - take - the number of numbers to send
+
+Code Example:
+
+```javascript
+webSocket.send(JSON.stringify({
+  type:'counter',
+  interval: 2000, // send a number every two seconds (2000 milliseconds)
+  take: 100, // send 100 numbers
+}));
+```
 
 ### Random Number Type
 
@@ -97,6 +117,15 @@ Option(s):
 - interval - the interval (in milliseconds) between each random number sent from the server
 - take - the number of numbers to send
 
+Code Example:
+
+```javascript
+webSocket.send(JSON.stringify({
+  type:'random_number',
+  interval: 2000, // send a random number every two seconds (2000 milliseconds)
+  take: 100, // send 100 numbers
+}));
+```
 
 
 
