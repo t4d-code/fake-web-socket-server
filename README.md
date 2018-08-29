@@ -67,3 +67,36 @@ webSocket.addEventListener('open', () => {
 
 Load the web page into your web browser, then open the console in the browser's development tools. The echo content should appear.
 
+## API
+
+Each message should be given a type. The supported types are:
+
+- echo - echos the payload back immediately
+- counter - generates 10 numbers on a fixed interval of 500 milliseconds
+- random_number - generates 10 random numbers (0 to 1) on a fixed interval of 500 milliseconds
+
+Each type supports additional options:
+
+### Echo Type
+
+Option(s):
+
+- delay - the delay (in milliseconds) before sending the echoed payload from the server
+
+### Counter Type
+
+Option(s):
+
+- interval - the interval (in milliseconds) between each number sent from the server
+- take - the number of numbers to send
+
+### Random Number Type
+
+Option(s):
+
+- interval - the interval (in milliseconds) between each random number sent from the server
+- take - the number of numbers to send
+
+
+
+

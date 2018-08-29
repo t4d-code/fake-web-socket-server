@@ -12,8 +12,8 @@ class CounterOp {
 
     mockWebSocketServer.addOp(this._type, incomingMessage => {
 
-      const interval = incomingMessage.interval || 500;
-      const take = incomingMessage.take || 9;
+      const interval = Number(incomingMessage.interval) || 500; // in milliseconds
+      const take = Number(incomingMessage.take) || 9;
       let counter = -1;
 
       const handle = setInterval(() => {
