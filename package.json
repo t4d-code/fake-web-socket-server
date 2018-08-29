@@ -1,11 +1,10 @@
 {
   "name": "fake-web-socket-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fake Web Socket Server",
   "main": "./src/app/index.js",
   "bin": "./src/bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "pkg-ok"
   },
   "keywords": [],
@@ -20,5 +19,9 @@
   },
   "devDependencies": {
     "pkg-ok": "2.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/t4d-code/fake-web-socket-server.git"
   }
 }
