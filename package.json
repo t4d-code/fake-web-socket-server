@@ -1,6 +1,6 @@
 {
   "name": "fake-web-socket-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fake Web Socket Server",
   "main": "./src/app/index.js",
   "bin": "./src/bin/index.js",
