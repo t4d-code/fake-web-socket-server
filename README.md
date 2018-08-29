@@ -17,7 +17,7 @@ This command will install and register the fake web socket server as a developme
 If you running a newer version of Node.js which supports the **npx** command, you can run the server from the a terminal window within the project's top-level folder using the following command:
 
 ```bash
-npx run fake-web-socket-server
+npx fake-web-socket-server
 ```
 
 If you would like to run the server as part of you **npm** scripts configuration, thenm odify your **package.json** file by adding a new scripts entry.
