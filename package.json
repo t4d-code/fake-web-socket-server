@@ -1,13 +1,13 @@
 {
   "name": "fake-web-socket-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fake Web Socket Server",
   "main": "./src/app/index.js",
   "bin": "./src/bin/index.js",
   "scripts": {
     "prepublishOnly": "pkg-ok"
   },
-  "keywords": [],
+  "keywords": ["web sockets"],
   "author": "Training 4 Developers, Inc.",
   "license": "Apache-2.0",
   "dependencies": {
