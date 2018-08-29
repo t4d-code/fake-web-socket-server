@@ -1,0 +1,24 @@
+{
+  "name": "fake-web-socket-server",
+  "version": "1.0.0",
+  "description": "Fake Web Socket Server",
+  "main": "./src/app/index.js",
+  "bin": "./src/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "pkg-ok"
+  },
+  "keywords": [],
+  "author": "Training 4 Developers, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "command-line-args": "5.0.2",
+    "ws": "6.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "pkg-ok": "2.2.0"
+  }
+}
