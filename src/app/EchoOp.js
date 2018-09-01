@@ -10,9 +10,9 @@ class EchoOp {
 
   register(mockWebSocketServer) {
 
-    const delay = Number(incomingMessage.delay) || 0; // in milliseconds
-
     mockWebSocketServer.addOp(this._type, incomingMessage => {
+
+      const delay = Number(incomingMessage.delay) || 0; // in milliseconds
 
       setTimeout(() => {
         const outgoingMessage = new OutgoingMessage(incomingMessage.payload, true);
